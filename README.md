@@ -5,7 +5,7 @@ DocSpot is a comprehensive, full-stack healthcare management platform built usin
 link: https://drive.google.com/drive/u/0/folders/1RWIN76WGZEctguMJbYqTw1NjfHe8x-ml?ths=true
 
 🚀 Project Overview
-The platform implements a three-tier user architecture—Patients, Doctors, and Administrators—each with dedicated dashboards and functionalities. The system features a modern, responsive 3D glassmorphism UI design to ensure a high-quality user experience across all devices.
+    The platform implements a three-tier user architecture—Patients, Doctors, and Administrators—each with dedicated dashboards and functionalities. The system features a modern, responsive 3D glassmorphism UI design to ensure a high-quality user experience across all devices.
 +3
 
 Key Highlights
