@@ -90,16 +90,11 @@ cd frontend
 npm install
 Run the Application
 
-Bash
-# From the root directory
-npm run dev
-📄 License
-This project is licensed under the MIT License.
 
 📧 Contact
 Developer: k s kishore kumar
 Email: revathikishore90@gmail.com
 GitHub: https://github.com/kishore1233
-LinkedIn: [linkedin.com/in/yourprofile]
+LinkedIn: https://www.linkedin.com/in/k-s-kishore-kumar-0938ab270/
 
 Developed during an internship at SmartBridge.
