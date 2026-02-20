@@ -82,10 +82,11 @@ Install Dependencies
 
 Bash
 # Install backend dependencies
+cd backend
 npm install
 
 # Install frontend dependencies
-cd client
+cd frontend
 npm install
 Run the Application
 
