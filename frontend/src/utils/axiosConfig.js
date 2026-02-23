@@ -1,5 +1,9 @@
 import axios from 'axios';
 
+// Set base URL based on environment
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+axios.defaults.baseURL = API_BASE_URL;
+
 // ── Auth header on every request ──────────────────────────
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
