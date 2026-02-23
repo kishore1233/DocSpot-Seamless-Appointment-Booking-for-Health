@@ -1,9 +1,11 @@
 # DocSpot-Seamless-Appointment-Booking-for-Health
 DocSpot is a comprehensive, full-stack healthcare management platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It serves as a digital bridge between patients and healthcare providers, streamlining the appointment booking process and eliminating traditional administrative hurdles.
-+3
++3 
+# project documentation
+link: https://drive.google.com/drive/u/0/folders/1RWIN76WGZEctguMJbYqTw1NjfHe8x-ml?ths=true
 
 🚀 Project Overview
-The platform implements a three-tier user architecture—Patients, Doctors, and Administrators—each with dedicated dashboards and functionalities. The system features a modern, responsive 3D glassmorphism UI design to ensure a high-quality user experience across all devices.
+    The platform implements a three-tier user architecture—Patients, Doctors, and Administrators—each with dedicated dashboards and functionalities. The system features a modern, responsive 3D glassmorphism UI design to ensure a high-quality user experience across all devices.
 +3
 
 Key Highlights
@@ -80,23 +82,19 @@ Install Dependencies
 
 Bash
 # Install backend dependencies
+cd backend
 npm install
 
 # Install frontend dependencies
-cd client
+cd frontend
 npm install
 Run the Application
 
-Bash
-# From the root directory
-npm run dev
-📄 License
-This project is licensed under the MIT License.
 
 📧 Contact
 Developer: k s kishore kumar
 Email: revathikishore90@gmail.com
 GitHub: https://github.com/kishore1233
-LinkedIn: [linkedin.com/in/yourprofile]
+LinkedIn: https://www.linkedin.com/in/k-s-kishore-kumar-0938ab270/
 
 Developed during an internship at SmartBridge.
