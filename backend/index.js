@@ -1,3 +1,6 @@
+const dns = require('dns');
+dns.setServers(['8.8.8.8', '8.8.4.4']);
+
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -29,9 +32,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // Serve uploaded files
 app.use('/uploads', express.static('uploads'));
-
-// Connect to MongoDB
-connectToDB();
 
 // Routes
 app.use('/api/user', userRoutes);
@@ -65,8 +65,16 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start server
+// Connect to MongoDB and start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-});
+
+connectToDB()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`🚀 Server is running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error('❌ Failed to connect to MongoDB:', err.message);
+    process.exit(1);
+  });
